@@ -1,0 +1,57 @@
+Regras CSS
+
+- Div São Elementos com Display Block
+- Img São Elemento com Display Inline
+- links (a href) São Elemento com Display Inline
+
+em elementos inline não é possivel
+aplicar margem auto para centralizar 
+o elemento dentro da div.
+
+não é possivel aplicar o comando
+margin auto para centralizar a 
+imagem dentro da div.
+
+Comando ultilizado para que a margin
+auto funcione direto na imagem.
+
+#perfil img {
+ display: block;
+ margin: auto;
+}
+
+ou adicione o comando abaixo direto na
+ID desejada para alinhar o objeto na div
+
+/* Este é o comando recomendado apra uso */
+
+#perfil {
+ text-align: center;
+}
+
+#padding
+
+este comando funciona como um religio começando
+sempre nessa ordem
+
+1º - TOP
+2º - Right
+3º - Bottom
+4º - Left
+
+exemplo do comando:
+
+padding: 50px 50px 10px 50px;
+
+#Display: Flex
+
+este comando pega todo conteudo que estar dentro
+do elemento e coloca a lado.
+
+para usar a quebra de conteudo para colunas você
+terá que usar o seguinte comando.
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:10px;
