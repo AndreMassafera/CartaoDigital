@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-• Click aqui para visualizar o projeto finalizado, online<a href="https://andremassafera.github.io/Projeto-Rocketseat/" target="\_blank")
+[• Click aqui para visualizar o projeto finalizado, online](<https://andremassafera.github.io/Projeto-Rocketseat/")
 
 ## 🔖Layout
 
